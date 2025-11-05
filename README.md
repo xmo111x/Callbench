@@ -114,6 +114,13 @@ Sie ist **GEMA-frei** und erfordert **keine Registrierung**:
 
 ---
 
+## ☕ Unterstütze mich
+Dieses Projekt ist Open Source und kostenlos.  
+Wenn du meine Arbeit magst, kannst du mir gerne einen Kaffee spendieren:
+
+👉[paypal.me/mesutoe](https://paypal.me/mesutoe)  
+
+
 🛠 Entwickelt mit ❤️ von **Mesut**
 
 

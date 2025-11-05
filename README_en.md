@@ -102,6 +102,13 @@ It’s **royalty-free** and requires **no registration**:
 
 ---
 
+## ☕ Support Me
+This project is open source and free to use.  
+If you like my work, you can buy me a coffee:
+
+👉 [paypal.me/mesutoe](https://paypal.me/mesutoe)
+
+
 🛠 Built with ❤️ by **Mesut**
 
 ![Screenshot der GUI](images/preview.png)
