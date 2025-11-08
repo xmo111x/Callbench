@@ -52,10 +52,11 @@ python ansage_gui.py
 ```powershell
 git clone https://github.com/xmo111x/Callbench.git
 cd Callbench
-python -m venv .venv
+python -3.12 -m venv .venv
 .venv\Scripts\activate
-pip install --upgrade pip
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+pip install "httpx==0.27.2" --force-reinstall
 choco install ffmpeg
 $env:OPENAI_API_KEY="sk-...."
 [System.Environment]::SetEnvironmentVariable('OPENAI_API_KEY', 'sk-....', 'User')
