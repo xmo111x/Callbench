@@ -33,15 +33,28 @@ Optionally, background music (e.g. `musik.mp3`) can be softly mixed in.
 ## 🍏 Installation on macOS
 
 ```bash
+# Repository klonen
 git clone https://github.com/xmo111x/Callbench.git
 cd Callbench
+
+# Virtuelle Umgebung
 python3.12 -m venv .venv
 source .venv/bin/activate
+
+# Abhängigkeiten installieren
 pip install -r requirements.txt
+
+# ffmpeg installieren (z. B. via Homebrew)
 brew install ffmpeg
+
+# OpenAI API Key setzen (temporär)
 export OPENAI_API_KEY="sk-...."
+
+# Dauerhaft (in ~/.zshrc)
 echo 'export OPENAI_API_KEY="sk-...."' >> ~/.zshrc
 source ~/.zshrc
+
+# Starten
 python ansage_gui.py
 ```
 
@@ -49,10 +62,12 @@ python ansage_gui.py
 
 ## 🪟 Installation on Windows
 
+Git von https://git-scm.com/install/windows installieren
+
 ```powershell
 git clone https://github.com/xmo111x/Callbench.git
 cd Callbench
-python -3.12 -m venv .venv
+py -3.12 -m venv .venv
 .venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
@@ -113,3 +128,12 @@ If you like my work, you can buy me a coffee:
 🛠 Built with ❤️ by **Mesut**
 
 ![Screenshot der GUI](images/preview.png)
+
+Version 2.0
+
+Changes:
+Installation files for Mac (Callbench.dmg) and Windows (Callbench.exe) have been created under /dist/.
+The OpenAI API key is requested when the announcement is generated for the first time and is stored in the system keychain.
+The files ansage_xxx.wav, ansage_xxx.mp3, and voice_xxx.wav are created in the Download folder. A timestamp is added to the file names, and the folder is opened automatically.
+The music file must be selected as musik.mp3. By default, no file is selected.
+Installation instructions for Windows have been corrected.

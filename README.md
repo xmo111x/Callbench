@@ -61,10 +61,12 @@ python ansage_gui.py
 
 ## 🪟 Installation auf Windows
 
+Git von https://git-scm.com/install/windows installieren
+
 ```powershell
 git clone https://github.com/xmo111x/Callbench.git
 cd Callbench
-python -3.12 -m venv .venv
+py -3.12 -m venv .venv
 .venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
@@ -126,3 +128,13 @@ Wenn du meine Arbeit magst, kannst du mir gerne einen Kaffee spendieren:
 
 
 ![Screenshot der GUI](images/preview.png)
+
+Version 2.0
+
+Änderungen: 
+- Installationsdatei für Mac (Callbench.dmg) und Windows (Callbench.exe) erstellt. Leider kann unter github eine Datei größer als 100 MB nicht hochgeladen werden. Deshalb ist die .exe Datei nicht vorhanden
+- OpenAI API Key wird bei erster Erzeugung der Ansage abgefragt und in Systemschlüsselbund gespeichert.
+- Es wird ansage_xxx.wav, ansage_xxx.mp3 und voice_xxx.wav im DOnload Ordner erstellt. Dabei wird ein Timestamp im Dateinamen hinzugefügt und der Ordner wird gleich geöffnet. 
+- Musik Datei muss als musik.mp3 Datei ausgeewählt werden. Voreingestellt ist keine Datei ausgewählt. 
+- Installationsanweisungen unter Windows korrigiert
+
